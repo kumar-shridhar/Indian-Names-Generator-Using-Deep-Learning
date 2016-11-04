@@ -8,3 +8,7 @@ LSTM architecture is used for the model. The model is trained on 72,000 Indian N
 2. Run the program by executing:
   
     python names_generator.py
+3. To visualize data, use this command on terminal
+  
+    tensorboard --logdir='/tmp/tflearn_logs'
+    
